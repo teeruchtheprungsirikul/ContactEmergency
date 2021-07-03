@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Bangkok Emergency
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="inset">
+    <ion-item *ngFor="let contact of contactArray" 
+          button="true"
+          (click)="call(contact)"
+          >
+      <div>
+        <h4>
+          {{ contact.name }}
+        </h4>
+        <p class="phone">
+          {{ contact.phone }}
+        </p>
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>

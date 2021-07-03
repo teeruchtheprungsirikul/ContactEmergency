@@ -1,0 +1,6 @@
+{
+	"appId": "ionic.test.KasetsartUniversity.MyContact",
+	"appName": "MyContactApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
